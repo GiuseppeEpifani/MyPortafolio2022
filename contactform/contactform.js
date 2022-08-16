@@ -94,7 +94,13 @@ jQuery(document).ready(function($) {
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
-    $.ajax({
+    $("#sendmessage").addClass("show");
+    $("#errormessage").removeClass("show");
+    $('.contactForm').find("input, textarea").val("");
+    $('#sendmessage').show(500);
+    $('#sendmessage').hide(5000);
+
+   /*  $.ajax({
       type: "POST",
       url: action,
       data: str,
@@ -111,7 +117,7 @@ jQuery(document).ready(function($) {
         }
 
       }
-    });
+    }); */
     return false;
   });
 

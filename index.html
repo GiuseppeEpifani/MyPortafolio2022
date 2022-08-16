@@ -67,12 +67,9 @@
             <div class="intro-content display-table">
                 <div class="table-cell">
                     <div class="container">
-                    <!--<p class="display-6 color-d">Hello, world!</p>-->
-                    <h1 class="intro-title mb-4">Hola soy Guiseppe Epifani</h1>
-                    <p class="intro-subtitle"><span class="text-slider-items">Frontend Developer,Backend Developer, Mobile Developer</span><strong class="text-slider"></strong></p>
-                    <a href="#contact" class="button button-a button-big button-rouded mt-5 js-scroll">Contactame</a>
-
-                    <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+                        <h1 class="intro-title mb-4">Hola soy Guiseppe Epifani </h1>
+                        <p class="intro-subtitle"><span class="text-slider-items">Frontend Developer,Backend Developer, Mobile Developer</span><strong class="text-slider"></strong></p>
+                        <a href="#contact" class="button button-a button-big button-rouded mt-5 js-scroll">Contactame</a>
                     </div>
                 </div>
             </div>
@@ -139,7 +136,7 @@
                                     <div class="about-me pt-4 pt-md-0">
                                         <div class="title-box-2">
                                             <h5 class="title-left">
-                                            Sobre mí
+                                                Sobre mí
                                             </h5>
                                         </div>
                                         <p class="lead">
@@ -171,9 +168,9 @@
                         <div class="award">
                             <div class="award-icon"></div>
                             <div class="award-content">
-                                <span class="date">Febrero 2022 - Agosto 2022</span>
+                                <span class="date">Febrero 2022 - <span id="current-date"></span></span>
                                 <h5 class="title">Full-Stack engineering</h5>
-                                <span class="title" style="font-size: 14px; font-weight: bold;">Empresa Hellema Holland Engineering limitada (6 meses)</span>
+                                <span class="title" style="font-size: 14px; font-weight: bold;">Empresa Hellema Holland Engineering limitada (<span id="cant-month-current"></span> meses)</span>
                                 <p class="description">
                                     Soy responsable del desarrollo y las implementaciones generales de las aplicaciones de software de front-end y back-end y mobile. Por otro lado, mis responsabilidades se extienden desde el diseño de la arquitectura del sistema hasta la programación de alto y bajo nivel, las pruebas de rendimiento y velar por el cumplimiento del uso de buenas practicas tales como principios DRY y principios SOLID y mantener en lo posible el mismo estándar dentro de todo el desarrollo                      
                                 </p>
@@ -186,7 +183,7 @@
                                 <h5 class="title">Freelance Mobile App Developer</h5>
                                 <span class="title" style="font-size: 14px; font-weight: bold;">Freelancer (5 meses)</span>
                                 <p class="description">
-                                    Trabaje como Freelance durante 5 meses programando una aplicación móvil en React native, la cual consistió en llenar las fichas de los pacientes que eran atendidos, estos datos bien podían ser digitalizados u obtenidos mediante los sensores que tuve que conectar, tales como: glucómetro, termómetro, balanza, tensiómetro y medidor de pulso. Además, esta tenia la opcion de funcionar en lugares remotos, por lo que los datos debían ser almacenados de manera local si no había conexión a internet y cuando se ingresara a la aplicación con conexión a internet, estos automáticamente eran subidos a la base de datos.                        
+                                    Trabajé como Freelance durante 5 meses programando una aplicación móvil en React native, la cual consistió en llenar las fichas clínicas de los pacientes que eran atendidos, estos datos bien podían ser digitalizados u obtenidos mediante los sensores que tuve que conectar a través de bluetooth, tales como: glucómetro, termómetro, balanza, tensiómetro y medidor de pulso. Además, esta tenía la opcion de funcionar offline, por lo que podía descargar la base de datos y guardarla en el dispositivo para que la enfermera tuviera la posibilidad de ver las fichas clínicas antiguas de los pacientes atendidos en ocasiones anteriores para que le ayudara a darle un mejor diagnostico para la atención actual, por otro lado, los datos registrados eran almacenados de manera local y una vez que el dispositivo tuviera conexión a internet, estos eran subidos de manera automática al servidor.                            
                                 </p>
                             </div>
                         </div>
@@ -197,8 +194,7 @@
                                 <h5 class="title">Full-stack Developer</h5>
                                 <span class="title" style="font-size: 14px; font-weight: bold;">Orion System Ltda · Full-time (1 año y 4 meses)</span>
                                 <p class="description">
-                                    Trabaje en el back-end con Laravel 7 y MySQL a su vez en el front-end con Vue.js, además, fui responsable de la refactorización de módulos en JQuery a Vue.js, por otro lado, trabaje con un equipo excelente que aplicaba principios de la metodología Scrum y se trabajaba por objetivos.                        
-                                </p>
+                                    Trabajé en el back-end con Laravel 7 y MySQL a su vez en el front-end con Vue.js, además, fui responsable de la refactorización de módulos en JQuery a Vue.js, por otro lado, trabajé en un excelente equipo que aplicaba principios de la metodología Scrum y se trabajaba por objetivos.                                </p>
                             </div>
                         </div>
                     </div>
@@ -216,9 +212,6 @@
                             <h3 class="title-a">
                                 Servicios
                             </h3>
-                            <p class="subtitle-a">
-                                Soy full stack por lo que mis servicios consisten en
-                            </p>
                             <div class="line-mf"></div>
                         </div>
                     </div>
@@ -237,7 +230,7 @@
                     <div class="col-md-6">
                         <div class="service-box">
                             <div class="service-ico">
-                                <span class="ico-circle"><i class="ion-code-working"></i></span>
+                                <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
                             </div>
                             <div class="service-content">
                                 <h2 class="s-title">Desarrollo móvil</h2>
@@ -247,7 +240,7 @@
                     <div class="col-md-6">
                         <div class="service-box">
                             <div class="service-ico">
-                                <span class="ico-circle"><i class="ion-code-working"></i></span>
+                                <span class="ico-circle"><i class="ion-card"></i></span>
                             </div>
                             <div class="service-content">
                                 <h2 class="s-title">E-commerce</h2>
@@ -278,55 +271,11 @@
                             <h3 class="title-a">
                                 Portfolio
                             </h3>
-                            <p class="subtitle-a">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            </p>
                             <div class="line-mf"></div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="work-box" style="background-color: #000;">
-                            <video 
-                                src="assets/videos/workToc.mp4"
-                                poster="img/workToc.png"
-                                class="mejs__player"
-                                preload="auto"
-                                style="width:100%;height:500px" controls="controls" width="100%" height="100%; background-color: #000;"
-                                data-mejsoptions='{"pluginPath": "/path/to/shims/", "alwaysShowControls": "false",}'>
-                            </video>
-                            <div class="work-content bg-white">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <h2 class="w-title">WorkToc</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Desarrollo móvil</span> / <span class="w-date">1 Abril del 2018</span>
-                                        </div>
-                                        <div class="w-more expander">
-                                            <p class="description">
-                                                Esta fue una de mis primeras aplicaciones con el lenguaje java y con android studio, la programe para presentarla como proyecto de título de Analista programador, 
-                                                esta resolvía la necesidad de solicitar trabajadores con algún oficio en particular, como gasfíter, cerrajero, etc. además de que también permitía la inscripción de nuevos trabajadores,
-                                                pero, estos debían de subir sus papeles de antecedentes y una vez evaluados, se le activaba la cuenta de trabajador.
-                                            </p>
-                                            <p class="description">
-                                                Utilice el api de google maps, inspirándome en la usabilidad de Uber en aquel entonces, ya que con el puntero del medio recogía las coordenadas y por ende la dirección, 
-                                                permitiendo así agregar marcadores, los cuales al hacerle touch emergía un dialogo mostrándole al usuario toda la información del trabajo, por otro lado, también use webView para crear el módulo de la subida de antecedentes, también tenía la 
-                                                opción de calificar a los trabajadores y poder ver su perfil junto con todas las reseñas que añadieron sus clientes.
-                                            </p>
-                                            <p class="description">
-                                                En fin, cabe señalar que el desarrollo de esta aplicación fue aproximadamente de 4 meses y solo contaba con conocimientos universitarios.
-                                            </p>
-                                        </div>
-                                        <hr/>
-                                        <div class="w-more">
-                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#Android Studio #Java #Php #Javascripts</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-6">
                         <div class="work-box">
                             <video
@@ -342,20 +291,20 @@
                                     <div class="col-sm-11">
                                         <h2 class="w-title">FlowSolutions</h2>
                                         <div class="w-more">
-                                            <span class="w-ctegory">Desarrollo móvil</span> / <span class="w-date">1 Abr. - 15 Jul. del 2022</span>
+                                            <span class="w-ctegory">Desarrollo móvil - Desarrollo web</span> / <span class="w-date">1 Abr. - 15 Jul. del 2022</span>
                                         </div>
                                         <div class="w-more expander">
                                             <p class="description">
-                                            Aplicación móvil hecha en react native, la cual consiste en automatizar un proceso interno de la empresa llamado "Rehabilitación de pozos y pruebas de bombeo”, en donde los datos monitoreados en los pozos sometidos a prueba, llegaban hasta como máximo 20 días a la casa matriz para ser analizados y generar las gráficas correspondientes para el informe final para el cliente, o bien, eran enviados por partes en archivos Excel lo cual aumentaba el trabajo de los analistas de pozos y eran mas propensos a cometer errores. A su vez, esta información no podía ser monitoreada de manera remota y se tenia que esperar hasta el final del turno (en la noche) para que los administradores de contrato vieran la estabilización del pozo. además, cabía la posibilidad de que los encargados de tomar las muestras de los pozos en la noche se olvidaran o se confundiesen de intervalo de minutos, lo cual era critico ya que estas se tomaban cada cierto intervalo de minutos y eran anotados en una plantilla.
+                                                Aplicación móvil que hice en react native, la cual consiste en automatizar un proceso interno de la empresa Hellema Holland Engineering llamado "Rehabilitación de pozos y pruebas de bombeo”, en donde los datos monitoreados en los pozos sometidos a prueba, llegaban hasta como máximo 20 días a la casa matriz para ser analizados y generar las gráficas correspondientes para el informe final para el cliente, o bien, eran enviados por partes en archivos Excel lo cual aumentaba el trabajo de los analistas de pozos y eran más propensos a cometer errores. A su vez, esta información no podía ser monitoreada de manera remota y en tiempo real por lo que se tenía que esperar hasta el final del turno (en la noche) para que los administradores de contrato vieran la estabilización del pozo. además, cabía la posibilidad de que los encargados de tomar las muestras de los pozos en la noche se olvidaran o se confundiesen de intervalo de minutos, lo cual era critico ya que estas se tomaban cada cierto intervalo de minutos y eran anotados en una plantilla.                                            </p>
+                                            <p class="description">
+                                                En fin, la solución que se le dio fue crear una aplicación móvil adaptable para móviles y tablet, en donde los trabajadores ingresan las muestras de los pozos y automáticamente se graficaba el proceso de este, además, se añadió socket por lo que los supervisores y casa matriz pueden ver el proceso en tiempo real de la prueba de bombeo, también se añadieron notificaciones FCM a los procesos importantes del negocio y se añadió un cronometro que funciona en segundo plano, el cual envía alertas cada cierto intervalo de minutos, recordando que es momento de tomar las muestras del pozo.                                            </p>
+                                            <p class="description">
+                                                Por último, se agregó una intranet en donde pueden visualizar todos los gráficos de manera automatizada que antes generaban de manera manual los analistas de pozos, también se añadió un algoritmo que permite calcular el abatimiento del pozo y también el gasto especifico de este para el postrer análisis, con posibilidad para exportar toda esta información a Excel bajo el formato de plantilla que usaba la empresa.                                            </p>
+                                            <p class="description">
+                                                También fui encargado de hacer toda la estructura de datos, además programe todo el backend en Express.js bajo los algunos principios SOLID, por otro lado en la Intranet también se añadió la tecnología PWA. El desarrollo de todo esto fue aproximadamente de 3 meses y 15 días.
                                             </p>
                                             <p class="description">
-                                            En fin, la solución que se le dio fue crear una aplicación móvil adaptable para móviles y tablet, en donde los trabajadores ingresan las muestras de los pozos y automáticamente se graficaba el proceso del pozo, además, se añadió socket por lo que los supervisores y casa matriz podían ver el proceso en tiempo real de la prueba de bombeo, también se añadieron notificaciones a los procesos importantes del negocio y se añadió un cronometro que funciona en segundo plano, el cual envía alertas cada cierto intervalo de minutos, recordando que es momento de tomar las muestras del pozo.
-                                            </p>
-                                            <p class="description">
-                                            Por último, se agregó una intranet en donde tienen todos los gráficos de manera automática que antes generaban de manera manual los analistas de pozos, con posibilidad para exportar toda esta información a Excel bajo el formato de plantilla que usaba la empresa.
-                                            </p>
-                                            <p class="description">
-                                            El código esta privado, ya que es propiedad intelectual de Hellema Holland Engineering. 
+                                                El código esta privado, ya que es propiedad intelectual de Hellema Holland Engineering. 
                                             </p>
                                         </div>
                                         <hr/>
@@ -365,14 +314,22 @@
                                     </div>
                                     <div class="col-sm-1">
                                         <div class="w-like">
-                                            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-                                                <span class="ion-ios-plus-outline"></span>
+                                            <a href="img/flowSolutions/flowSolutions1.png" data-lightbox="gallery-flow-solutions">
+                                                <span class="ion-ios-plus" data-toggle="tooltip" data-placement="bottom" title="Ver imagenes"></span>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <a href="img/flowSolutions/flowSolutions2.png" data-lightbox="gallery-flow-solutions"></a>
+                        <a href="img/flowSolutions/flowSolutions3.png" data-lightbox="gallery-flow-solutions"></a>
+                        <a href="img/flowSolutions/flowSolutions4.png" data-lightbox="gallery-flow-solutions"></a>
+                        <a href="img/flowSolutions/flowSolutions5.png" data-lightbox="gallery-flow-solutions"></a>
+                        <a href="img/flowSolutions/flowSolutions6.png" data-lightbox="gallery-flow-solutions"></a>
+                        <a href="img/flowSolutions/flowSolutions7.png" data-lightbox="gallery-flow-solutions"></a>
+                        <a href="img/flowSolutions/flowSolutions8.png" data-lightbox="gallery-flow-solutions"></a>
+                        <a href="img/flowSolutions/flowSolutions9.png" data-lightbox="gallery-flow-solutions"></a>
                     </div>
                     <div class="col-md-6">
                         <div class="work-box">
@@ -386,10 +343,79 @@
                             </video>
                             <div class="work-content">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-10">
                                         <h2 class="w-title">Telemedicina</h2>
                                         <div class="w-more">
-                                            <span class="w-ctegory">Desarrollo móvil</span> / <span class="w-date">1 Abril del 2018</span>
+                                            <span class="w-ctegory">Desarrollo móvil</span> / <span class="w-date">1 Mar. - 30 Jul. del 2021</span>
+                                        </div>
+                                        <div class="w-more expander">
+                                            <p class="description">
+                                                Aplicación móvil que hice en react native, la cual consiste en llenar las fichas clínicas de los pacientes que eran atendidos, estos datos bien podían ser digitalizados u obtenidos mediante los sensores que tuve que conectar a través de bluetooth, tales como: glucómetro, termómetro, balanza, tensiómetro y medidor de pulso. Además, esta tenía la opcion de funcionar offline, por lo que podía descargar la base de datos y guardarla en el dispositivo para que la enfermera tuviera la posibilidad de ver las fichas clínicas antiguas de los pacientes atendidos en ocasiones anteriores para que le ayudara a darle un mejor diagnostico para la atención actual, por otro lado, los datos registrados eran almacenados de manera local y una vez que el dispositivo tuviera conexión a internet, estos eran subidos de manera automática al servidor.
+                                            </p>
+                                            <p class="description">
+                                                En fin, cabe señalar que el desarrollo de esta aplicación fue aproximadamente de 5 meses y la marca de los sensores es andesfit, por otro lado, la documentación de estos era pésima, siendo casi imposible de seguir, por lo que la conexión de estos fue un gran desafío. Por último, ya existía una aplicación web y el backend, por lo que tuve que adaptarme a la lógica de negocio y bajo eso programar la aplicación móvil.                                            
+                                            </p>
+                                            <p class="description">
+                                                El código esta privado, ya que es propiedad de mi cliente.
+                                            </p>
+                                        </div>
+                                        <hr/>
+                                        <div class="w-more">
+                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#React #React native #Javascripts #Laravel 7 #MongoDb #React native BLE PLX</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="w-like">
+                                            <a href="img/telemedicina/sensores/glucosaSensor.png" data-lightbox="gallery-sensors-telemedicina">
+                                                <span class="ion-ios-plus" data-toggle="tooltip" data-placement="bottom" title="Ver imagenes"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="img/telemedicina/sensores/pesaSensor.png" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/sensores/presionSensor.png" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/sensores/pulsoSensor.png" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/sensores/termometroSensor.png" data-lightbox="gallery-sensors-telemedicina"></a>
+
+                        <a href="img/telemedicina/telemedicina1" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina2" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina3" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina5" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina6" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina7" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina8" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina9" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina10" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina11" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina12" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina13" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina14" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina15" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina16" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina17" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina18" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina19" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina20" data-lightbox="gallery-sensors-telemedicina"></a>
+                        <a href="img/telemedicina/telemedicina21" data-lightbox="gallery-sensors-telemedicina"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="work-box" style="background-color: #000;">
+                            <video 
+                                src="assets/videos/workToc.mp4"
+                                poster="img/workToc.jpeg"
+                                class="mejs__player"
+                                preload="auto"
+                                style="width:100%;height:500px" controls="controls" width="100%" height="100%; background-color: #000;"
+                                data-mejsoptions='{"pluginPath": "/path/to/shims/", "alwaysShowControls": "false",}'>
+                            </video>
+                            <div class="work-content bg-white">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <h2 class="w-title">WorkToc</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Desarrollo móvil</span> / <span class="w-date">14 Marzo - 18 Julio del 2019</span>
                                         </div>
                                         <div class="w-more expander">
                                             <p class="description">
@@ -403,112 +429,91 @@
                                                 opción de calificar a los trabajadores y poder ver su perfil junto con todas las reseñas que añadieron sus clientes.
                                             </p>
                                             <p class="description">
-                                                En fin, cabe señalar que el desarrollo de esta aplicación fue aproximadamente de 4 meses y solo contaba con conocimientos universitarios.
+                                                En fin, cabe señalar que el backend lo hice en php solamente y el desarrollo de esta aplicación fue aproximadamente de 4 meses y solo contaba con conocimientos universitarios.                                            
                                             </p>
                                         </div>
                                         <hr/>
                                         <div class="w-more">
-                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#Java #Php #Javascripts</span>
+                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#Android Studio #Java #Php #Javascripts</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="w-like">
+                                            <a href="https://github.com/GiuseppeEpifani/workTocMobile" target="_blank">
+                                                <span class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title="Ver código en GitHub"></span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-                                <div class="work-img">
-                                    <img src="img/work-3.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div class="work-content">
-                                    <div class="row">
-                                        <div class="col-sm-8">
-                                            <h2 class="w-title">Mavrito Lana Dere</h2>
-                                            <div class="w-more">
-                                                <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="w-like">
-                                                <span class="ion-ios-plus-outline"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-                                <div class="work-img">
-                                    <img src="img/work-4.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div class="work-content">
-                                    <div class="row">
-                                        <div class="col-sm-8">
-                                            <h2 class="w-title">Bindo Laro Cado</h2>
-                                            <div class="w-more">
-                                                <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="w-like">
-                                                <span class="ion-ios-plus-outline"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-                                <div class="work-img">
-                                    <img src="img/work-5.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div class="work-content">
-                                    <div class="row">
-                                        <div class="col-sm-8">
-                                            <h2 class="w-title">Studio Lena Mado</h2>
-                                            <div class="w-more">
-                                                <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="w-like">
-                                                <span class="ion-ios-plus-outline"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-                                <div class="work-img">
-                                    <img src="img/work-6.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div class="work-content">
-                                    <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Studio Big Bang</h2>
+                    <div class="col-md-6">
+                        <div class="work-box" style="background-color: #000;">
+                            <video 
+                                src="assets/videos/notaFacil.mp4"
+                                class="mejs__player"
+                                preload="auto"
+                                style="width:100%;height:500px" controls="controls" width="100%" height="100%; background-color: #000;"
+                                data-mejsoptions='{"pluginPath": "/path/to/shims/", "alwaysShowControls": "false",}'>
+                            </video>
+                            <div class="work-content bg-white">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <h2 class="w-title">Nota Fácil</h2>
                                         <div class="w-more">
-                                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                                            <span class="w-ctegory">Desarrollo móvil</span> / <span class="w-date">1 Agosto del 2018</span>
+                                        </div>
+                                        <div class="w-more expander">
+                                            <p class="description">
+                                                Le tengo mucho cariño a esta aplicación ya que fue la primera que hice con android studio, lo hice con la intención de utilizarla en la universidad para calcular mi promedio, sé que existen muchas aplicaciones que hacían esto, pero quería sentir la satisfacción de usar algo que yo cree. Se que el diseño no es el mejor, y me faltaba mucha experiencia UX en ese entonces, pero me calculaba todo de manera automática y apenas ingresaba la nota o el porcentaje en algún input automáticamente pasaba al siguiente.
+                                            </p>
+                                        </div>
+                                        <hr/>
+                                        <div class="w-more">
+                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#Android Studio #Java</span>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-2">
                                         <div class="w-like">
-                                        <span class="ion-ios-plus-outline"></span>
+                                            <a href="https://github.com/GiuseppeEpifani/notaFacil" target="_blank">
+                                                <span class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title="Ver código en GitHub"></span>
+                                            </a>
                                         </div>
-                                    </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="work-box">
+                            <div class="work-img">
+                                <img src="img/api.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <h2 class="w-title">Api de inicio</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">API</span> / <span class="w-date">2021</span>
+                                        </div>
+                                        <p class="description">
+                                            Api de inicio rapido con principios SOLID para cualquier fin.
+                                        </p>
+                                        <hr/>
+                                        <div class="w-more">
+                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#Node.js #Express.js #Javascripts #JWT #Joi #Mongoose</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="w-like">
+                                            <a href="https://github.com/GiuseppeEpifani/init-api-node" target="_blank">
+                                                <span class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title="Ver código en GitHub"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -578,17 +583,10 @@
                                         Puedes ponerte en contacto a traves de los siguientes canales
                                         </p>
                                         <ul class="list-ico">
-                                        <li><span class="ion-ios-telephone"></span> +56999081586</li>
-                                        <li><span class="ion-email"></span> giuseppe.epifanivillalobos@gmail.com</li>
+                                            <li><span class="ion-ios-telephone"></span> +56999081586</li>
+                                            <li><span class="ion-email"></span> giuseppe.epifanivillalobos@gmail.com</li>
                                         </ul>
                                     </div>
-                                    <!--  <div class="socials">
-                                        <ul>
-                                        <li><a href=""><span class="ico-circle"><i class="fa-brands fa-github"></i></span></a></li>
-                                        <li><a href=""><span class="ico-circle"><i class="ion-git-hub"></i></span></a></li>
-                                        <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                                        </ul>
-                                    </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -624,20 +622,6 @@
         <script src="lib/lightbox/js/lightbox.min.js"></script>
         <script src="lib/typed/typed.min.js"></script>
         <script src="lib/mediaelement/mediaelement-and-player.js"></script>
-        <!-- Dailymotion Renderer -->
-        <script src="lib/mediaelement/renderers/dailymotion.js"></script>
-        <!-- Facebook Video Renderer -->
-        <script src="lib/mediaelement/renderers/facebook.js"></script>
-        <!-- Soundcloud Renderer -->
-        <script src="lib/mediaelement/renderers/soundcloud.js"></script>
-        <!-- Twitch Renderer -->
-        <script src="lib/mediaelement/renderers/twitch.js"></script>
-        <!-- Vimeo Renderer -->
-        <script src="lib/mediaelement/renderers/vimeo.js"></script>
-        <!-- Youtube Renderer -->
-        <script src="lib/mediaelement/renderers/youtube.js"></script>
-        <!-- All Languages -->
-        <script src="lib/mediaelement/lang/es.js"></script>
         <script src="lib/expander/jquery.expander.min.js"></script>
 
         <!-- Contact Form JavaScript File -->
