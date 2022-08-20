@@ -144,7 +144,7 @@
                                             Actualmente utilizo el stack MERN y aplico principios SOLID y DRY.                  
                                         </p>
                                         <p class="lead">
-                                            Por otro lado tengo hobbies como ejercitarme, pasear a mi perro y me gustan las bebidas energéticas.
+                                            Por otro lado, tengo hobbies como ejercitarme, pasear a mi perro y me gustan las bebidas energéticas.
                                         </p>
                                     </div>
                                 </div>
@@ -543,7 +543,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12 mb-3">
                                                         <div class="form-group">
-                                                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingrese porlomenos 4 caracteres" />
+                                                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:1" data-msg="Por favor complete el nombre" />
                                                             <div class="validation"></div>
                                                         </div>
                                                     </div>
@@ -555,7 +555,7 @@
                                                     </div>
                                                     <div class="col-md-12 mb-3">
                                                         <div class="form-group">
-                                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese porlomenos 8 caracteres" />
+                                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:1" data-msg="Por favor complete el asunto" />
                                                         <div class="validation"></div>
                                                         </div>
                                                     </div>
@@ -566,8 +566,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-md-12">
-                                                        <button type="submit" class="button button-a button-big button-rouded">Enviar mensaje</button>
+                                                        <button type="submit" class="button button-a button-big button-rouded"><span id="text-send-email">Enviar mensaje</span></button>
                                                     </div>
+
+                                                    <script type="text/javascript"
+                                                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+                                                    <script type="text/javascript">
+                                                        emailjs.init('btvEs1sQf4BDu_Byq')
+                                                    </script>
                                                 </div>
                                             </form>
                                         </div>
