@@ -72,9 +72,13 @@
 			if ($(window).scrollTop() > pixels) {
 				$('.navbar-expand-md').addClass('navbar-reduce');
 				$('.navbar-expand-md').removeClass('navbar-trans');
+				$('#logo').css('height', 40);
+				$('#logo').css('width', 35);
 			} else {
 				$('.navbar-expand-md').addClass('navbar-trans');
 				$('.navbar-expand-md').removeClass('navbar-reduce');
+				$('#logo').css('height', 100);
+				$('#logo').css('width', 90);
 			}
 			if ($(window).scrollTop() > top) {
 				$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
