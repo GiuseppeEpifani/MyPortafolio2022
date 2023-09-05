@@ -111,7 +111,7 @@
 		const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 		$('#current-date').html(new Date().toLocaleDateString('es-ES', options));
 
-		$('#cant-month-current').html(getMonthDifference(new Date('2022-02-23'), new Date()));
+		$('#cant-month-current').html(getMonthDifference(new Date('2023-01-07'), new Date()));
 
 		$('[data-toggle="tooltip"]').tooltip();
 })(jQuery);
