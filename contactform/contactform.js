@@ -122,9 +122,8 @@ jQuery(document).ready(function($) {
         $('#text-send-email').html('Enviar mensaje');
         $("#sendmessage").removeClass("show");
         $("#errormessage").addClass("show");
-        $('#errormessage').html(msg);
+        $('#errormessage').html('Ups, servicio no disponible');
         $(':input[type="submit"]').prop('disabled', false);
-        alert(JSON.stringify(err));
     });
 
    /*  $.ajax({
