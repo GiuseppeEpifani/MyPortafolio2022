@@ -95,7 +95,7 @@
                                         </h5>
                                     </div>
                                     <p class="lead">
-                                        Hola, mi nombre es Guiseppe Epifani y tengo 25 años. Soy ingeniero informático con cuatro años de experiencia en el desarrollo de software, donde me he especializado en proporcionar soluciones de alta calidad. Me caracterizo por ser una persona activa y autodidacta, con una profunda pasión por la programación. Actualmente, estoy ampliando mis habilidades en el campo del Cloud Computing a través del estudio de AWS, preparándome para obtener la certificación de AWS DVA-C02 Associate.
+                                        Hola, mi nombre es Guiseppe Epifani y tengo 25 años. Soy ingeniero informático con cuatro años de experiencia en el desarrollo de software, donde me he especializado en Javascript. Me caracterizo por ser una persona activa y autodidacta, con una profunda pasión por la programación. Actualmente, estoy ampliando mis habilidades en el campo del Cloud Computing a través del estudio de AWS, preparándome para obtener la certificación de AWS DVA-C02 Associate.
                                     </p>
                                     <p class="lead">
                                         Por otro lado, tengo hobbies como ejercitarme, pasear a mi perro y me gustan las bebidas energéticas.
@@ -126,11 +126,13 @@
                                 <h5 class="title">Full-Stack developer</h5>
                                 <span class="title" style="font-size: 14px; font-weight: bold;">Empresa Ayelen (1 año y 4 meses)</span>
                                 <p class="description">
-                                    Mi papel consistió en participar activamente en la migración y modernización de los
-                                    sistemas legacy (COBOL) de TUR-BUS hacia tecnologías como Angular, Express y
-                                    Nest, adoptando una arquitectura hexagonal en el backend y utilizando PostgreSQL
-                                    como sistema de gestión de bases de datos. Cada módulo fue diseñado e
-                                    implementado como un microservicio independiente, trabajando bajo la
+                                    Mi papel consistió en participar activamente en la migración y modernización del
+                                    sistema legacy (COBOL) de venta de pasajes presenciales en cajas de TUR-BUS
+                                    hacia tecnologías modernas como Angular, Express y NestJS. Adoptamos una
+                                    arquitectura hexagonal en el backend utilizando PostgreSQL con TypeORM y
+                                    Sequelize para la gestión de bases de datos. Cada módulo fue diseñado e
+                                    implementado como un microservicio independiente, y utilizamos RabbitMQ para la
+                                    comunicación entre algunos de estos microservicios. Trabajamos bajo la
                                     metodología SCRUM en colaboración con múltiples equipos.
                                     En mi rol como Desarrollador Full-Stack, colaboré con el equipo para facilitar la
                                     comprensión y el análisis de las necesidades y reglas del negocio a través de
@@ -142,11 +144,7 @@
                                     backend como del frontend, tareas que eran asignadas a través de JIRA.
                                     Uno de los principales desafíos fue la coexistencia inicial y la sincronización con el
                                     sistema legacy de TUR-BUS, que se mantuvo como el principal custodio de la
-                                    gobernanza de datos en una infraestructura on-premise. El proyecto requería una
-                                    coordinación meticulosa para asegurar la integridad y disponibilidad de datos
-                                    durante la transición. La estrategia establecida fue trasladar gradualmente la
-                                    gobernanza de datos al nuevo sistema, asegurando una migración progresiva y
-                                    controlada que minimizara cualquier riesgo de interrupción.
+                                    gobernanza de datos en una infraestructura on-premise.                                    
                                 </p>
                             </div>
                         </div>
@@ -175,7 +173,7 @@
                                     Finalmente, ejercí como líder del equipo de desarrollo de software, supervisando a
                                     dos desarrolladores junior. Esta experiencia me permitió fortalecer habilidades
                                     blandas como liderazgo, toma de decisiones y la capacidad de compartir
-                                    conocimientos.                                
+                                    conocimientos.                         
                                 </p>
                             </div>
                         </div>
@@ -198,7 +196,7 @@
                                     almacenaban localmente y se sincronizaban automáticamente con el servidor una vez
                                     que el dispositivo establecía conexión a internet. Además, adaptarme completamente
                                     a la lógica de negocio del proyecto fue esencial, dado que mi responsabilidad se
-                                    centraba exclusivamente en la programación de la aplicación móvil.                                
+                                    centraba exclusivamente en la programación de la aplicación móvil.                              
                                 </p>
                             </div>
                         </div>
@@ -215,8 +213,8 @@
                                     garantizar una interacción eficiente con la base de datos. En el front-end, utilicé
                                     Vue.js 2 para desarrollar funcionalidades como la generación de informes en PDF,
                                     estadísticas y gráficas, además de implementar el libro digital de clases conforme a
-                                    los requisitos del Mineduc. También paticipé en la refactorización de módulos de
-                                    JQuery a Vue.js 2, mejorando la eficiencia y escalabilidad del software.
+                                    los requisitos del Mineduc. También paticipé en la migración de módulos de JQuery a
+                                    Vue.js 2, mejorando la eficiencia y escalabilidad del software.
                                     Además, incorporamos servicios de AWS en nuestra infraestructura, utilizando EC2 y
                                     RDS para el alojamiento y manejo de nuestras bases de datos, S3 para el
                                     almacenamiento de archivos y la distribución de recursos estáticos, y IAM para la
@@ -265,13 +263,19 @@
                                         </div>
                                         <div class="w-more expander">
                                             <p class="description">
-                                                Aplicación móvil que hice en react native, la cual consiste en automatizar un proceso interno de la empresa Hellema Holland Engineering llamado "Rehabilitación de pozos y pruebas de bombeo”, en donde los datos monitoreados en los pozos sometidos a prueba, llegaban hasta como máximo 20 días a la casa matriz para ser analizados y generar las gráficas correspondientes para el informe final para el cliente, o bien, eran enviados por partes en archivos Excel lo cual aumentaba el trabajo de los analistas de pozos y eran más propensos a cometer errores. A su vez, esta información no podía ser monitoreada de manera remota y en tiempo real por lo que se tenía que esperar hasta el final del turno (en la noche) para que los administradores de contrato vieran la estabilización del pozo. además, cabía la posibilidad de que los encargados de tomar las muestras de los pozos en la noche se olvidaran o se confundiesen de intervalo de minutos, lo cual era critico ya que estas se tomaban cada cierto intervalo de minutos y eran anotados en una plantilla.                                            </p>
+                                                Desarrollé una aplicación móvil en React Native para Hellema Holland Engineering que automatiza su proceso interno de "Rehabilitación de pozos y pruebas de bombeo". Anteriormente, los datos monitoreados en los pozos sometidos a prueba tardaban hasta 20 días en llegar a la casa matriz para ser analizados y generar las gráficas para el informe final del cliente. Alternativamente, los datos se enviaban en partes mediante archivos Excel, lo que incrementaba la carga de trabajo de los analistas y aumentaba el riesgo de errores.
+                                                Además, la información no podía ser monitoreada de forma remota y en tiempo real, obligando a los administradores de contrato a esperar hasta el final del turno nocturno para revisar la estabilización del pozo. Esta situación también presentaba el riesgo de que los encargados de tomar las muestras durante la noche se olvidaran o confundieran los intervalos de tiempo para las mediciones, que eran registradas manualmente en una plantilla.
+                                                Con la nueva aplicación, se agiliza el proceso, permitiendo la transmisión de datos en tiempo real y facilitando el monitoreo remoto, lo cual mejora la precisión y la eficiencia del análisis y reporte de datos, reduciendo significativamente la carga de trabajo y los errores humanos.                                            
+                                            </p>
+                                            <p class="description"> 
+                                                En resumen, la solución consistió en crear una aplicación móvil adaptable para dispositivos móviles y tabletas. A través de esta aplicación, los trabajadores pueden ingresar las muestras de los pozos, y el proceso se grafica automáticamente. Además, se incorporó soporte para sockets, lo que permite a los supervisores y a la casa matriz ver el proceso de prueba de bombeo en tiempo real.
+                                                También se añadieron notificaciones FCM para los eventos importantes del negocio y se implementó un cronómetro que funciona en segundo plano. Este cronómetro envía alertas en intervalos regulares, recordando a los trabajadores que es momento de tomar las muestras del pozo.
+                                            </p>
                                             <p class="description">
-                                                En fin, la solución que se le dio fue crear una aplicación móvil adaptable para móviles y tablet, en donde los trabajadores ingresan las muestras de los pozos y automáticamente se graficaba el proceso de este, además, se añadió socket por lo que los supervisores y casa matriz pueden ver el proceso en tiempo real de la prueba de bombeo, también se añadieron notificaciones FCM a los procesos importantes del negocio y se añadió un cronometro que funciona en segundo plano, el cual envía alertas cada cierto intervalo de minutos, recordando que es momento de tomar las muestras del pozo.                                            </p>
+                                                Además, se añadió una intranet donde los usuarios pueden visualizar automáticamente todos los gráficos que anteriormente eran generados manualmente por los analistas de pozos. Además, se implementó un algoritmo que calcula el abatimiento del pozo y el gasto específico para el análisis posterior. Toda esta información puede ser exportada a Excel, utilizando el formato de plantilla que emplea la empresa.
+                                            </p>
                                             <p class="description">
-                                                Por último, se agregó una intranet en donde pueden visualizar todos los gráficos de manera automatizada que antes generaban de manera manual los analistas de pozos, también se añadió un algoritmo que permite calcular el abatimiento del pozo y también el gasto especifico de este para el postrer análisis, con posibilidad para exportar toda esta información a Excel bajo el formato de plantilla que usaba la empresa.                                            </p>
-                                            <p class="description">
-                                                También fui encargado de hacer toda la estructura de datos, además programe todo el backend en Express.js bajo los algunos principios SOLID, por otro lado en la Intranet también se añadió la tecnología PWA. El desarrollo de todo esto fue aproximadamente de 3 meses y 15 días.
+                                                Por último, fui responsable de diseñar toda la estructura de datos y de programar todo el backend utilizando Express.js, aplicando algunos principios de SOLID. Además, implementé la tecnología PWA en la intranet.                                            
                                             </p>
                                             <p class="description">
                                                 El código esta privado, ya que es propiedad intelectual de Hellema Holland Engineering. 
@@ -279,7 +283,7 @@
                                         </div>
                                         <hr/>
                                         <div class="w-more">
-                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#React #React native #Javascript #Expres.js #MongoDb #Socket.io #FCM #PWA</span>
+                                            <strong>Stack:</strong> <span class="w-ctegory">#React #React native #Javascript #Expres.js #MongoDb #Socket.io #FCM #PWA</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-1">
@@ -320,18 +324,16 @@
                                         </div>
                                         <div class="w-more expander">
                                             <p class="description">
-                                                Aplicación móvil que hice en react native, la cual consiste en llenar las fichas clínicas de los pacientes que eran atendidos, estos datos bien podían ser digitalizados u obtenidos mediante los sensores que tuve que conectar a través de bluetooth, tales como: glucómetro, termómetro, balanza, tensiómetro y medidor de pulso. Además, esta tenía la opcion de funcionar offline, por lo que podía descargar la base de datos y guardarla en el dispositivo para que la enfermera tuviera la posibilidad de ver las fichas clínicas antiguas de los pacientes atendidos en ocasiones anteriores para que le ayudara a darle un mejor diagnostico para la atención actual, por otro lado, los datos registrados eran almacenados de manera local y una vez que el dispositivo tuviera conexión a internet, estos eran subidos de manera automática al servidor.
-                                            </p>
+                                                Desarrollé una aplicación móvil en React Native para gestionar las fichas clínicas de los pacientes atendidos. Los datos podían ser digitalizados manualmente o obtenidos mediante sensores conectados por Bluetooth, tales como glucómetros, termómetros, balanzas, tensiómetros y medidores de pulso. La aplicación tenía la capacidad de funcionar sin conexión, permitiendo descargar la base de datos y almacenarla en el dispositivo. Esto permitía a las enfermeras acceder a las fichas clínicas anteriores de los pacientes, mejorando así el diagnóstico y la atención actual. Los datos registrados se almacenaban localmente y, una vez que el dispositivo se conectaba a Internet, se subían automáticamente al servidor.                                            </p>
                                             <p class="description">
-                                                En fin, cabe señalar que el desarrollo de esta aplicación fue aproximadamente de 5 meses y la marca de los sensores es andesfit, por otro lado, la documentación de estos era pésima, siendo casi imposible de seguir, por lo que la conexión de estos fue un gran desafío. Por último, ya existía una aplicación web y el backend, por lo que tuve que adaptarme a la lógica de negocio y bajo eso programar la aplicación móvil.                                            
-                                            </p>
+                                                En resumen, el desarrollo de esta aplicación tomó aproximadamente 5 meses. Los sensores utilizados eran de la marca Andesfit, cuya documentación era deficiente y casi imposible de seguir, lo que hizo que la conexión de estos sensores fuera un gran desafío. Además, ya existía una aplicación web y un backend, por lo que tuve que adaptarme a la lógica de negocio existente para programar la aplicación móvil.                                            </p>
                                             <p class="description">
                                                 El código esta privado, ya que es propiedad de mi cliente.
                                             </p>
                                         </div>
                                         <hr/>
                                         <div class="w-more">
-                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#React #React native #Javascript #Laravel 7 #MongoDb #React native BLE PLX</span>
+                                            <strong>Stack:</strong> <span class="w-ctegory">#React #React native #Javascript #Laravel 7 #MongoDb #React native BLE PLX</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-2">
@@ -389,22 +391,18 @@
                                         </div>
                                         <div class="w-more expander">
                                             <p class="description">
-                                                Esta fue una de mis primeras aplicaciones con el lenguaje java y con android studio, la programe para presentarla como proyecto de título de Analista programador, 
-                                                esta resolvía la necesidad de solicitar trabajadores con algún oficio en particular, como gasfíter, cerrajero, etc. además de que también permitía la inscripción de nuevos trabajadores,
-                                                pero, estos debían de subir sus papeles de antecedentes y una vez evaluados, se le activaba la cuenta de trabajador.
+                                                Esta fue una de mis primeras aplicaciones desarrolladas con Java y Android Studio, creada como proyecto de título para mi carrera de Analista Programador. La aplicación resolvía la necesidad de solicitar trabajadores con un oficio particular, como gasfíteres o cerrajeros, además de permitir la inscripción de nuevos trabajadores. Los nuevos trabajadores debían subir sus antecedentes, y tras una evaluación, se les activaba la cuenta de trabajador.
                                             </p>
                                             <p class="description">
-                                                Utilice el api de google maps, inspirándome en la usabilidad de Uber en aquel entonces, ya que con el puntero del medio recogía las coordenadas y por ende la dirección, 
-                                                permitiendo así agregar marcadores, los cuales al hacerle touch emergía un dialogo mostrándole al usuario toda la información del trabajo, por otro lado, también use webView para crear el módulo de la subida de antecedentes, también tenía la 
-                                                opción de calificar a los trabajadores y poder ver su perfil junto con todas las reseñas que añadieron sus clientes.
+                                                Utilicé la API de Google Maps, inspirándome en la usabilidad de Uber en aquel entonces. La aplicación permitía recoger coordenadas y direcciones mediante el puntero central, lo que facilitaba la adición de marcadores. Al tocar un marcador, se abría un diálogo que mostraba al usuario toda la información del trabajo. También implementé un módulo para la subida de antecedentes utilizando WebView. La aplicación permitía calificar a los trabajadores y ver sus perfiles junto con todas las reseñas que habían recibido de sus clientes.
                                             </p>
                                             <p class="description">
-                                                En fin, cabe señalar que el backend lo hice en php solamente y el desarrollo de esta aplicación fue aproximadamente de 4 meses y solo contaba con conocimientos universitarios.                                            
+                                                En resumen, desarrollé el backend en PHP exclusivamente y el desarrollo de esta aplicación tomó aproximadamente 4 meses. En ese momento, solo contaba con conocimientos adquiridos en la universidad.                                            
                                             </p>
                                         </div>
                                         <hr/>
                                         <div class="w-more">
-                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#Android Studio #Java #Php #Javascript</span>
+                                            <strong>Stack:</strong> <span class="w-ctegory">#Android Studio #Java #Php #Javascript</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-2">
@@ -436,12 +434,12 @@
                                         </div>
                                         <div class="w-more expander">
                                             <p class="description">
-                                                Le tengo mucho cariño a esta aplicación ya que fue la primera que hice con android studio, lo hice con la intención de utilizarla en la universidad para calcular mi promedio, sé que existen muchas aplicaciones que hacían esto, pero quería sentir la satisfacción de usar algo que yo cree. Se que el diseño no es el mejor, y me faltaba mucha experiencia UX en ese entonces, pero me calculaba todo de manera automática y apenas ingresaba la nota o el porcentaje en algún input automáticamente pasaba al siguiente.
+                                                Tengo un gran aprecio por esta aplicación, ya que fue la primera que desarrollé con Android Studio. La creé con la intención de usarla en la universidad para calcular mi promedio. Aunque sabía que existían muchas aplicaciones similares, quería experimentar la satisfacción de utilizar algo que había creado yo mismo. Reconozco que el diseño no es el mejor y que carecía de experiencia en UX en ese momento. Sin embargo, la aplicación realizaba todos los cálculos automáticamente: al ingresar una nota o un porcentaje en un campo, la aplicación avanzaba al siguiente de forma automática.
                                             </p>
                                         </div>
                                         <hr/>
                                         <div class="w-more">
-                                            <strong>Tecnologías:</strong> <span class="w-ctegory">#Android Studio #Java</span>
+                                            <strong>Stack:</strong> <span class="w-ctegory">#Android Studio #Java</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-2">
