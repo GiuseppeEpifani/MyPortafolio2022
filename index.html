@@ -283,21 +283,24 @@
                                             <span class="w-ctegory">Desarrollo móvil</span> / <span class="w-date">29 Ene. - 14 Mar. del 2025</span>
                                         </div>
                                         <div class="w-more expander">
-                                            <p class="description">
-                                                Desarrollé una aplicación llamada <strong>SICGEOAtacama</strong>, orientada al sector de perforaciones mineras. La app fue creada para facilitar el registro diario de reportes sobre el avance de la perforación de pozos, así como la ejecución de diversos cálculos internos necesarios para el correcto funcionamiento operativo.
-                                            </p>
-                                            <p class="description">
-                                                Uno de los principales focos del desarrollo fue permitir que los trabajadores pudieran utilizar la aplicación tanto en modo offline como online. Cuando no había conectividad, los datos se almacenaban localmente en el dispositivo, y al detectar una conexión a internet, la aplicación sincronizaba automáticamente la información con el servidor, incluso si la app estaba en segundo plano o completamente cerrada.
-                                            </p>
-                                            <p class="description">
-                                                Este comportamiento garantizó una continuidad operativa confiable en zonas remotas, donde la conectividad suele ser inestable o inexistente. Además, el sistema realizaba internamente varios cálculos técnicos vinculados a los parámetros operativos, optimizando así el trabajo de los supervisores y asegurando la integridad de los datos registrados.
-                                            </p>
-                                            <p class="description">
-                                                El resultado fue una herramienta robusta, precisa y adaptada a las necesidades reales del entorno minero.
-                                            </p>
-                                            <p class="description">
-                                                El código fuente del proyecto es privado, ya que corresponde a propiedad intelectual del cliente.
-                                            </p>
+                                        <p class="description">
+                                            Desarrollé una aplicación llamada <strong>SICGEOAtacama</strong>, orientada al sector de perforaciones mineras. La app fue creada para facilitar el registro diario de reportes sobre el avance de la perforación de pozos, así como la ejecución de diversos cálculos internos necesarios para el correcto funcionamiento operativo.
+                                        </p>
+                                        <p class="description">
+                                            Uno de los principales focos del desarrollo fue permitir que los trabajadores pudieran utilizar la aplicación tanto en modo offline como online. Cuando no había conexión, la app detectaba automáticamente la ausencia de red y pasaba a modo offline, almacenando los datos localmente. Al recuperar conexión, la información se sincronizaba automáticamente con el servidor, incluso si la app estaba en segundo plano o completamente cerrada.
+                                        </p>
+                                        <p class="description">
+                                            Además, implementé un <strong>interruptor manual</strong> que permitía forzar el uso permanente en modo offline. Esto fue especialmente útil en contextos donde los dispositivos móviles recibían señal débil: en esos casos, la app intentaba conectarse y revalidar el acceso del usuario, lo que generaba desconexiones o cierres de sesión inesperados. Con esta funcionalidad, los operadores podían trabajar de forma estable sin depender de una conexión inestable.
+                                        </p>
+                                        <p class="description">
+                                            También desarrollé la lógica que realiza cálculos técnicos internos relacionados con los parámetros operativos de los pozos, optimizando el trabajo de los supervisores y asegurando la precisión de los datos recolectados.
+                                        </p>
+                                        <p class="description">
+                                            Estuve a cargo del diseño de toda la lógica de sincronización, la persistencia local de datos, el registro y visualización de reportes, el manejo del estado de conexión, y la estructura de control que permitía a la app operar de forma autónoma en condiciones adversas. El resultado fue una herramienta robusta, confiable y adaptada a las condiciones reales del entorno minero.
+                                        </p>
+                                        <p class="description">
+                                            El código fuente del proyecto es privado, ya que corresponde a propiedad intelectual del cliente.
+                                        </p>
                                         </div>
                                         <hr/>
                                         <div class="w-more">
